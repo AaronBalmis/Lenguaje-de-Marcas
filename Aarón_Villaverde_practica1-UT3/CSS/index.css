@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    position: relative;
+}
+
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Recursos/Background.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
+}
+.cabecera{
+    display: flex;
+    min-height: 10vh;
+}
+
+.logo{
+    height: 150px;
+}
+main{
+    min-height: 50vh;
+}
+.contenedor{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    border: 3px solid black;
+    max-width: 50vw;
+    max-height: 30vh;
+    
+}
+
+.pie{
+    min-height: 10vh;
+}
+
+.pie span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: right;
+    bottom: 0;
+}
